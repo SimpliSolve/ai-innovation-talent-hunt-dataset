@@ -71,7 +71,7 @@ user_reviews/
 │   └── Movie_Title_2_page_2.csv
 ├── ...
 ```
-For each movie, if user reviews are available, then each page of user reviews is collected in sequential csv file
+For each movie, if user reviews can be fetched from movie page, then each page of viewable user reviews is collected in sequential csv file.
 
 ## Dataset Schema
 
@@ -116,6 +116,7 @@ You can find further details in the ml-latest-small/README.txt
 
 - `'N/A'` or None (blank) is used where values are missing.
 - Some fields (like `meta_score` or `box_office`) may be sparsely populated.
+- Reviews for movies in `user_reviews/` can be thousands in total but only reviews which could be fetched from the movie page were included. We have observed it tends to cut off at 50 or 25.
 - Photo files need to downloaded from links in `all_photo_link` in csvs from `daily_csvs/` and `top_250/`
 
 # License / Use Disclaimer
