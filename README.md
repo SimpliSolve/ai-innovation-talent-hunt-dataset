@@ -50,7 +50,7 @@ Columns are as follows:
 ---
 
 ## Collection Details
-- **Frequency**: Daily scrape per release date block
+- **Frequency**: Daily scrape per release date block (For this competition, data was collected from 2020-01-01 to 2025-08-12)
 - **Scrape delay**: 2 seconds between requests to avoid rate limiting
 - **Search filters**:
   - Runtime: `25–600` mins
@@ -62,7 +62,7 @@ Columns are as follows:
 ## Folder structure of `user_reviews/`
 
 ```
-user_review/
+user_reviews/
 ├── Movie_Title_1/
 │   ├── Movie_Title_1_page_1.csv
 │   └── Movie_Title_1_page_2.csv
@@ -108,7 +108,7 @@ Same as "1. Movie Data from Daily Search in Date Range"
 
 Ground Truth dataset for Ranking System of Movie Recommendation. 
 
-This dataset (ml-latest-small) describes 5-star rating and free-text tagging activity from MovieLens, a movie recommendation service. It contains 100836 ratings and 3683 tag applications across 9742 movies. These data were created by 610 users between March 29, 1996 and September 24, 2018. This dataset was generated on September 26, 2018. 
+This popular dataset for movie recommenders (ml-latest-small) describes 5-star rating and free-text tagging activity from MovieLens, a movie recommendation service. It contains 100836 ratings and 3683 tag applications across 9742 movies. These data were created by 610 users between March 29, 1996 and September 24, 2018. This dataset was generated on September 26, 2018. 
 
 You can find further details in the ml-latest-small/README.txt
 
