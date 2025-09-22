@@ -1,0 +1,51 @@
+# Personal files
+*.env
+*.key
+*.pem
+*.crt
+*.p12
+*.json
+*.yml
+*.yaml
+
+# Credentials & tokens
+id_*
+*secret*
+*password*
+*credentials*
+*config*
+*token*
+
+# System/Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & cache
+*.log
+*.out
+*.err
+*.pid
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.o
+*.so
+*.dll
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Dataset exclusions (keep only clean/public data)
+private/
+raw/
+sandbox/
+test/
