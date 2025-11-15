@@ -25,3 +25,6 @@ Every rating record points to a movie that exists in the companion metadata
 - **Working code** – We encourage you to focus on getting the end‑to‑end code working and learning from the data. Any fully working submission is welcome.
 - **Number of Submissions** – We will take a total of max 5 submissions per team during the testing period. 
 
+## Note
+'year' column is removed from `known_reviewers_known_movies.csv`and 'user_review' is entirely optional field, not mandatory for testing.
+
